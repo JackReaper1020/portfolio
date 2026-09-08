@@ -42,32 +42,32 @@ function Page() {
                 
                 {/* Example Image 1 */}
                 <div className="overflow-hidden rounded-md border border-neutral-200">
-                  <img src="/npmun-bro.png" alt="NP-MUN Banner Design" className="w-full object-cover" />
+                  <img src="/portfolio/npmun-bro.png" alt="NP-MUN Banner Design" className="w-full object-cover" />
                 </div>
 
                 {/* Example Image 2 */}
                 <div className="overflow-hidden rounded-md border border-neutral-200">
-                  <img src="/cert-npmun.jpg" alt="Vibes di Vista Certificate" className="w-full object-cover" />
+                  <img src="/portfolio/cert-npmun.jpg" alt="Vibes di Vista Certificate" className="w-full object-cover" />
                 </div>
                 {/* Image 3 */}
                 <div className="overflow-hidden rounded-md border border-neutral-200">
-                  <img src="/NPMUN.png" alt="Vibes di Vista Certificate" className="w-full object-cover" />
+                  <img src="/portfolio/NPMUN.png" alt="Vibes di Vista Certificate" className="w-full object-cover" />
                 </div>
                 <p><strong>Vibes di Vista:</strong> Designed event certificates and promotional banners.</p>
                 
                 {/* Example Image 1 */}
                 <div className="overflow-hidden rounded-md border border-neutral-200">
-                  <img src="/vibes_cert.jpg" alt="NP-MUN Banner Design" className="w-full object-cover" />
+                  <img src="/portfolio/vibes_cert.jpg" alt="NP-MUN Banner Design" className="w-full object-cover" />
                 </div>
 
                 {/* Example Image 2 */}
                 <div className="overflow-hidden rounded-md border border-neutral-200">
-                  <img src="/poster.jpg" alt="Vibes di Vista Certificate" className="w-full object-cover" />
+                  <img src="/portfolio/poster.jpg" alt="Vibes di Vista Certificate" className="w-full object-cover" />
                 </div>
                 <p><strong>WeRise Foundation:</strong> Designed event promotional banners.</p>
                 {/* Image werise */}
                 <div className="overflow-hidden rounded-md border border-neutral-200">
-                  <img src="/werise.png" alt="Vibes di Vista Certificate" className="w-full object-cover" />
+                  <img src="/portfolio/werise.png" alt="Vibes di Vista Certificate" className="w-full object-cover" />
                 </div>
               </div>
             )

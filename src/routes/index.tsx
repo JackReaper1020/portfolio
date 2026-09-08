@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {  Mail, ArrowRight, Terminal } from "lucide-react";
+import profilePic from '../assets/photo.png'
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -34,7 +35,7 @@ function Index() {
             
             {/* Make sure the src matches the exact file name in your public folder */}
             <img 
-              src="/photo.png" 
+              src={profilePic} 
               alt="Anuyog J. Mangrati" 
               className="h-full w-full object-cover"
             />
@@ -73,7 +74,7 @@ function Index() {
 
               {/* LinkedIn (Raw SVG) */}
               <a 
-                href="https://linkedin.com/in/YOUR_USERNAME" 
+                href="https://www.linkedin.com/in/anuyog-james-mangrati-22717a297?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-400 transition-all duration-300 hover:border-slate-300 hover:bg-slate-50 hover:text-blue-600"
