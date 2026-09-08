@@ -1,32 +1,28 @@
-# React + TypeScript + Vite
+# Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website showcasing my projects, skills, and experience in web development, graphic design, and video editing. 
 
-Currently, two official plugins are available:
+![Live Status](https://img.shields.io/badge/Status-Live-success)
+**Live Demo:** [https://JackReaper1020.github.io/portfolio/](https://JackReaper1020.github.io/portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+*   **Framework:** React + Vite
+*   **Language:** TypeScript
+*   **Routing:** TanStack Router
+*   **Deployment:** GitHub Pages (`gh-pages`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Repository Structure
 
-## Expanding the Oxlint configuration
+*   **`/src`**: Contains all the React components, styling, and TanStack routing configurations (`router.tsx`). Image assets used in the components are located here.
+*   **`/public`**: Static assets that are not processed by Vite (like custom favicons).
+*   **`vite.config.ts`**: Vite bundler configuration, including the `/portfolio/` base path required for GitHub Pages hosting.
+*   **`package.json`**: Contains the project dependencies and the `deploy` script.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 💡 Key Features
+*   **Fast Client-Side Routing:** Utilizes TanStack Router for seamless and highly-performant page transitions without browser reloads.
+*   **Optimized Assets:** Images and assets are handled by Vite's build pipeline for optimized loading.
+*   **Responsive Design:** Accessible and readable across all device screens.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+*Built with code and creativity.*
